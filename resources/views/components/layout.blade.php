@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="w-screen h-screen bg-gray-100 overflow-hidden">
 
 <head>
     <meta charset="utf-8">
@@ -7,7 +7,8 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="my-[30px] w-full h-full ">
+<body class="h-full w-full bg-red-500 overflow-auto py-[30px]">
+
     {{ $slot }}
 </body>
 

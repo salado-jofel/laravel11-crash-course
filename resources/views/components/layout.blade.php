@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="w-screen h-screen bg-gray-100 overflow-hidden">
+<html class="h-screen">
 
 <head>
     <meta charset="utf-8">
@@ -7,9 +7,12 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="h-full w-full bg-red-500 overflow-auto py-[30px]">
-
+<body class="min-h-full py-[30px] bg-red-500">
+    @session('message')
+        <div class=" text-center w-full bg-green-500 text-white rounded-2xl">{{ session('message') }}</div>
+    @endsession
     {{ $slot }}
+
 </body>
 
 </html>

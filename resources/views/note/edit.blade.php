@@ -1,4 +1,5 @@
 <x-layout>
+<<<<<<< HEAD
     <div class=" flex justify-start items-center flex-col gap-[30px] ">
         <div class=" border px-[20px] py-[10px] border-black text-[24px]">
             <a>
@@ -28,5 +29,8 @@
 
         </div>
     </div>
+=======
+     <h1>edit</h1>
+>>>>>>> parent of ab1bf61 (fix: set width and height for html and body)
 
 </x-layout>

@@ -1,5 +1,5 @@
 <x-layout>
-    <div class=" flex justify-start items-center flex-col gap-[30px] bg-red-500">
+    <div class="w-full h-full flex justify-start items-center flex-col gap-[30px]">
         <div class=" border px-[20px] py-[10px] border-black text-[24px]">
             <h1 class="">New Note</h1>
             </a>
